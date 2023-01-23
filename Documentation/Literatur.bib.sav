@@ -1,0 +1,38 @@
+% Encoding: UTF-8
+
+@InProceedings{Ajani2019,
+  author    = {Ajani, Oladayo S. and El-Hussieny, Haitham},
+  booktitle = {2019 Novel Intelligent and Leading Emerging Sciences Conference (NILES)},
+  title     = {An ANFIS-based Human Activity Recognition using IMU sensor Fusion},
+  year      = {2019},
+  pages     = {34-37},
+  volume    = {1},
+  doi       = {10.1109/NILES.2019.8909289},
+}
+
+@Article{Caramia2018,
+  author  = {Caramia, Carlotta and Torricelli, Diego and Schmid, Maurizio and Munoz-Gonzalez, Adriana and Gonzalez-Vargas, Jose and Grandas, Francisco and Pons, Jose L.},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  title   = {IMU-Based Classification of Parkinson's Disease From Gait: A Sensitivity Analysis on Sensor Location and Feature Selection},
+  year    = {2018},
+  number  = {6},
+  pages   = {1765-1774},
+  volume  = {22},
+  doi     = {10.1109/JBHI.2018.2865218},
+}
+
+@Article{Cuzzolin2017,
+  author   = {Fabio Cuzzolin and Michael Sapienza and Patrick Esser and Suman Saha and Miss Marloes Franssen and Johnny Collett and Helen Dawes},
+  journal  = {Gait \& Posture},
+  title    = {Metric learning for Parkinsonian identification from IMU gait measurements},
+  year     = {2017},
+  issn     = {0966-6362},
+  pages    = {127-132},
+  volume   = {54},
+  abstract = {Diagnosis of people with mild Parkinson's symptoms is difficult. Nevertheless, variations in gait pattern can be utilised to this purpose, when measured via Inertial Measurement Units (IMUs). Human gait, however, possesses a high degree of variability across individuals, and is subject to numerous nuisance factors. Therefore, off-the-shelf Machine Learning techniques may fail to classify it with the accuracy required in clinical trials. In this paper we propose a novel framework in which IMU gait measurement sequences sampled during a 10m walk are first encoded as hidden Markov models (HMMs) to extract their dynamics and provide a fixed-length representation. Given sufficient training samples, the distance between HMMs which optimises classification performance is learned and employed in a classical Nearest Neighbour classifier. Our tests demonstrate how this technique achieves accuracy of 85.51% over a 156 people with Parkinson's with a representative range of severity and 424 typically developed adults, which is the top performance achieved so far over a cohort of such size, based on single measurement outcomes. The method displays the potential for further improvement and a wider application to distinguish other conditions.},
+  doi      = {https://doi.org/10.1016/j.gaitpost.2017.02.012},
+  keywords = {Machine Learning algorithms, Hidden Markov models, Metric learning, Inertial Measurement Unit, Gait, Parkinson's},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0966636217300462},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

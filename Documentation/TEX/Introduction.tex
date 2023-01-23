@@ -1,0 +1,23 @@
+%% *** 1. Kapitel ***
+\section{Introduction}
+% *** Motivation ***
+% Which problem leaded to this work?
+% In which research area? Which challenges can occur?
+\IEEEPARstart{A}{nalysing} the walking behavior of a person is considered easy for the human eye. In contrast several challenges arise if a computer is tasked with this decision. Firstly, a feasible sensor, e.g. an IMU sensor in a smartphone, needs to be monitored. Secondly, preprocessing is needed before feeding any algorithm. At last, the computer requires the right algorithms and parameters to yield high accuracy - for training, testing and validation accuracy.\\
+We present a \ac{ML} approach and a \ac{GUI} that allows preprocessing, training/testing and inspection of recorded gait data. The resulting model is able to distinguish between normal and unnormal gait.
+% *** State of the Art *** -> cite related papers
+IMU-based classification of human movement data is well discussed in literature. Most of the works use a \ac{ML} approach, like \ac{SVM}, \ac{RF} or Neural Networks to recognize diseases, e.g. Parkinson. In general very high accuracies can be reached \cite{Caramia2018, Ajani2019, Cuzzolin2017}.\\
+% *** Goals of this work ***
+This work aims to develop a combined \ac{ML} model to reach high accuracies for binary classification of acceleration time series data from recorded gaits.
+% *** This Paper ***
+% Which working steps are included and which are not?
+This paper focuses on the algorithm itself and not on the preprocessing or the \ac{GUI}.
+% Why and how is this work stand-alone?
+In contrast to other works building on feature dependent algorithms alone, we employ a stack of \ac{SVM}, \ac{RF} and three \ac{LSTM} networks.
+% *** Methodology and Workflow ***
+% How should the goals of this work be reached?
+To reach the goal of high testing and validation accuracy, optimal parameters for data split and hyperparameters of applied \ac{ML} algorithms need to be determined iteratively.
+% How was proceeded?
+The impact of said features, hyperparameters and their combination are evaluated and discussed.
+% How is the work structured?
+The paper presents the \ac{ML} approaches and the selected features. Further, the best combination of individual classifiers and their hyperparameters are outlined and results are discussed.

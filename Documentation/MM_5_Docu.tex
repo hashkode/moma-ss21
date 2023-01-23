@@ -1,0 +1,68 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Technische Universität München
+%% Lehrstuhl für Datenverarbeitung
+%% Latex-Template
+%% Kontakt: 
+%% Stand: 16.10.2018
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% *** Dokumentinformationen ***
+\newcommand{\AutorVorname}{Tobias}									% Vorname des Verfassers
+\newcommand{\AutorNachname}{Hofmann}								% Nachname des Verfassers
+\newcommand{\AutorEmail}{tobias.th.hofmann@tum.de}		% Emailadresse des Verfassers
+
+\newcommand{\Semester}{Sommersemester 2021}			% Aktuelles Semester: Sommersemester JJJJ bzw. Wintersemester JJJJ
+\newcommand{\SemesterShort}{SS 2021}					  	% Aktuelles Semester: SS JJJJ bzw. WS JJJJ
+\newcommand{\DatumAbgabe}{12.07.2021}								
+\newcommand{\Thema}{Monty Matlab: Group 5}					% Thema der Arbeit
+\newcommand{\Keywords}{Schlagwörter anstelle von Index Terms verwenden} % Schlagwörter (maximal 5 Stück, durch Kommata getrennt)
+
+%% *** Dokumenteigenschaften ***
+\input{TEX/Header}
+
+\begin{document}
+\input{TEX/OwnScript}
+
+%% *** Titel der Arbeit ***
+\title{\Thema}
+
+%% *** Autor und Betreuer ***
+\author{Authors: \textit{Tobias~Hofmann},
+				\textit{Tobias~Krug},
+				\textit{Rayene~Messaoud},
+				\textit{Alexander~Schölles}}% <-this % stops a space
+
+
+%% *** Kopfzeile ***
+\markboth{Lehrstuhl für Datenverarbeitung -- Monty Matlab \SemesterShort}{}
+\maketitle
+
+%% *** Abstract ***
+\input{TEX/Abstract}
+
+%% *** Keywords & Acronym ***
+\input{TEX/Keywords_Acro}
+
+% *** Introduction ***
+% Motivation and related works. 0.5 Page
+\input{TEX/Introduction}
+
+% *** Main Part ***
+% Problem Overview, Implementation (flowchart). 1 Page
+\input{TEX/Main}
+
+% *** Conclusion ***
+% Conclusion, Discussion and known issues. 0.5 Page
+\input{TEX/Conclusion}
+
+%% *** Anhang (wenn benoetigt) ***
+\appendices
+%\input{TEX/Anhang}
+
+
+\bibliography{Literatur}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+
+

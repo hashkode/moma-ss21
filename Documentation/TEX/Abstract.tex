@@ -1,0 +1,9 @@
+\begin{abstract}
+% very short motivation and problem overview
+\ac{ML} is widely used in many human behavior classification applications. This work deals with binary classification of acceleration data, recorded with an IMU-sensor of any smartphone. We show how to exploit characteristics of normal and unnormal walking. Different approaches, feature selections and hyperparameters are discussed.
+% Goals and topics of the work
+In addition to the classification algorithm, we identify diverse data, preprocessing and a straightforward \ac{GUI} to guide the development as crucial elements to yield a high accuracy.
+Additionally, different \ac{ML} techniques are evaluated and discussed. To determine the most accurate approach, a MATLAB implementation for training, testing and validation is carried out to determine the best performing model.
+% Main Results
+A stacked model of a \ac{SVM}, a \ac{RF} and three \ac{LSTM} networks yields the highest balanced accuracy with \unit{99.5196}{\%} on the test data. The \ac{SVM} and \ac{RF} use an amount of 102 features per acceleration dimension to learn the walking patterns. The three \ac{LSTM} networks operate with 36, 213 and 378 hidden units to track different dynamics of human gait.
+\end{abstract}
